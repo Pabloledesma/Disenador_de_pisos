@@ -9,6 +9,7 @@ $().ready(function () {
     var angulo = 0;
     var all = $("#all");
     var detalle = $("#detalle");
+    var result = $("#result");
     //Quitar el los estilos del div entry-content
     $("div[class='entry-content]").removeClass('entry-content');
     
@@ -18,7 +19,11 @@ $().ready(function () {
             console.log('nuevo');
             var group = $('g');
             console.log(group.html());
-            group.on('click', 'poligon', function(){
+            group.on('click', 'polygon', function(){
+                $(this).attr('fill', color);
+            });
+            
+            group.on('click', 'polyline', function(){
                 $(this).attr('fill', color);
             });
             
@@ -55,6 +60,11 @@ $().ready(function () {
 
     $("#guardar").on('click', function () {
         var svg = $("svg");
+        if(result.has('svg')){
+            alert("Debe borrar el resultado anterior.");
+            return false
+        }
+            
         for (var i = 6; i >= 0; i--) {
             svg.clone().attr('width', '100px')
                     .attr('height', '100px')
@@ -66,7 +76,11 @@ $().ready(function () {
 
     $("#borrar").on('click', function () {
         $("path").attr('fill', "#FFFFFF");
-        $("#result").find("svg").remove();
+        $("polygon").attr('fill', "#FFFFFF");
+        $("polyline").attr('fill', "#FFFFFF");
+        $("rectangle").attr('fill', "#FFFFFF");
+        $("circle").attr('fill', "#FFFFFF");
+        result.find("svg").remove();
     });
     
      
