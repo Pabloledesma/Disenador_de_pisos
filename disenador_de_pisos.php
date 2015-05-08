@@ -1,0 +1,18 @@
+<?php
+/*
+  Plugin Name: Diseñador de pisos
+  Plugin URI: 
+  Description: Agrega color a las valdosas
+  Author: Pablo Ledesma
+  Author URI: http://pabloledesma.co
+  Version: 1.0
+ */
+
+add_shortcode('top', function(){
+    return include 'partials/top.php';
+});
+
+add_shortcode('bottom', function(){
+    return include 'partials/bottom.php';
+});
+
