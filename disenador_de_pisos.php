@@ -8,11 +8,9 @@
   Version: 1.0
  */
 
-add_shortcode('top', function(){
-    return include 'partials/top.php';
+add_shortcode('disenador', function(){
+    return include 'disenador.php';
 });
 
-add_shortcode('bottom', function(){
-    return include 'partials/bottom.php';
-});
+
 
