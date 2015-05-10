@@ -73,14 +73,15 @@ $().ready(function () {
             alert("Debe borrar el resultado anterior.");
             return false;
         }
-           
-        for (var i = 6; i >= 0; i--) {
-            svg.clone().attr('width', '100px')
-                    .attr('height', '100px')
-                    .attr('class', 'clone')
-                    .appendTo("#result");
-            i--;
-        }
+         
+        var tabla = '<table><tr><td class="celda"></td><td class="celda"></td></tr><tr><td class="celda"></td><td class="celda"></td></tr></table>',
+        html = $.parseHTML( tabla );
+        result.append( html );
+        svg.clone().attr('width', '100px')
+                .attr('height', '100px')
+                .attr('class', 'clone')
+                .appendTo("td.celda");
+         
     });
 
     $("#borrar").on('click', function () {

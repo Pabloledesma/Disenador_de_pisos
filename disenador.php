@@ -8,6 +8,16 @@
         border: none;
         -webkit-box-shadow: 2px 2px 5px black;
         box-shadow: 2px 2px 5px black;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        transition: all 0.2s;
+    }
+
+    .paleta:hover {
+        background-color: none !important;
+        -webkit-transform: scale(1,1.2);
+        -moz-transform: scale(1,1.2);
+        transform: scale(1,1.2); 
     }
 
     .selected { 
@@ -16,9 +26,13 @@
         border-radius: 10px;
         border: none !important; 
         background:#E5A7A5;
-        margin-top: 10px;
-
+        margin-bottom: 10px;
     }
+
+    #paleta { margin-top: 10px; }
+
+    table { border-collapse: collapse; border-spacing: none !important; }
+    table, tr, td { border: none !important; }
 
 </style>
 <div id="disenador" class="container">
@@ -28,7 +42,8 @@
             <h4>Seleccióne la valdosa que desee editar</h4>
             <?php
                 $dir_imagenes = plugins_url('Disenador_de_pisos/img/');
-                $imagenes = scandir( str_replace('partials', 'img', __DIR__) );
+                
+                $imagenes = scandir( __DIR__ . '\img' );
                 foreach($imagenes as $img){
                     if( strpos($img, '.svg') ){
             ?>
