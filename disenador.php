@@ -98,17 +98,12 @@
         <div id="detalle" class="col-md-7">
            
 
-</div><!-- #detalle -->
-</div>
-<div class="row">
-    <div class="col-md-6">
-       
+        </div><!-- #detalle -->
+    </div><!-- row -->
+    <div class="row">
+        <div class="col-md-6"></div>       
+        <div class="col-md-6" id="result"></div>                         
     </div>
-    <div class="col-md-6" id="result">                  
-    </div>
-</div>
 </div>      
 
 <script src="<?php echo site_url('wp-content/plugins/Disenador_de_pisos/js/disenador_de_pisos.js'); ?>"></script>
-
-

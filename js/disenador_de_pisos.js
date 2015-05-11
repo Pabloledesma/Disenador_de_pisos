@@ -4,25 +4,30 @@
  */
 
 $().ready(function () {
-    var selected = $("#selected");
-    var color;
-    var angulo = 0;
-    var all = $("#all");
-    var detalle = $("#detalle");
-    var result = $("#result");
+
+    /*** definición de variables ***/
+
+    var selected = $("#selected"),
+         color,
+         angulo = 0,
+         all = $("#all"),
+         detalle = $("#detalle"),
+         result = $("#result"),
+         disenador = $("#disenador");
 
     
 
     //Reduce la margen izquierda y oculta el texto basura
     //Esto aplica para la plantilla twanty-thirteen
-    $("#disenador").parent('.entry-content').removeClass('entry-content').find('p').hide();
+    disenador.parent('.entry-content').removeClass('entry-content').find('p').hide();
+    alert(disenador.parent('div').text());
 
     //Oculta el texto basura
 
     
     all.on('click', 'a', function(e){
         e.preventDefault();
-        detalle.load( $(this).attr('href'), function(){
+        detalle.load( $(this).attr('href') + ' svg', function(){
             var group = $('g');
             group.on('click', 'polygon', function(){
                 $(this).attr('fill', color);

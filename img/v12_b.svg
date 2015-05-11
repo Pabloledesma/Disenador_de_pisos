@@ -8,42 +8,41 @@
 ]>
 <svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-	 x="0px" y="0px" width="550px" height="550px" viewBox="25 25 550 550" enable-background="new 25 25 550 550"
-	 xml:space="preserve">
+	 x="0px" y="0px" width="550px" height="550px" viewBox="0 0 550 550" enable-background="new 0 0 550 550" xml:space="preserve">
 <g>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="392.094,208.821 300,117.642 
-		207.906,208.821 300,208.821 	"/>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="392.094,391.18 484.188,300 
-		392.094,208.821 392.094,300 	"/>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="300,391.18 207.906,391.18 
-		300,482.358 392.093,391.18 	"/>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="207.906,300 207.906,208.821 
-		115.812,300 207.906,391.18 	"/>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="300,208.821 392.094,208.821 
-		392.094,300 392.094,391.18 300,391.18 207.906,391.18 207.906,300 207.906,208.821 	"/>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="484.717,575 484.717,501.997 
-		504.8,483.133 575,483.133 575,575 	"/>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="115.284,575 115.284,501.997 
-		95.201,483.133 25,483.133 25,575 	"/>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="484.717,25 484.717,98.002 
-		504.8,116.867 575,116.867 575,25 	"/>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="484.717,98.002 484.717,25 
-		393.404,25 393.404,117.196 485.299,209.089 575,209.089 575,116.867 504.8,116.867 	"/>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="393.404,117.196 393.404,25 300,25 
-		300,117.642 484.188,299.999 575,299.999 575,209.088 485.299,209.088 	"/>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="206.596,117.196 206.596,25 300,25 
-		300,117.642 115.812,299.999 25,299.999 25,209.088 114.702,209.088 	"/>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="206.596,482.805 206.596,575 300,575 
-		300,482.359 115.812,300.002 25,300.002 25,390.914 114.702,390.914 	"/>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="393.404,482.805 393.404,575 300,575 
-		300,482.359 484.188,300.002 575,300.002 575,390.914 485.299,390.914 	"/>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="484.717,501.997 484.717,575 
-		393.404,575 393.404,482.804 485.299,390.912 575,390.912 575,483.133 504.8,483.133 	"/>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="115.284,98.002 115.284,25 
-		206.596,25 206.596,117.196 114.702,209.089 25,209.089 25,116.867 95.201,116.867 	"/>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="115.284,501.997 115.284,575 
-		206.596,575 206.596,482.804 114.702,390.912 25,390.912 25,483.133 95.201,483.133 	"/>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="115.284,25 115.284,98.002 
-		95.201,116.867 25,116.867 25,25 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="367.094,183.821 275,92.642 
+		182.906,183.821 275,183.821 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="367.094,366.18 459.188,275 
+		367.094,183.821 367.094,275 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="275,366.18 182.906,366.18 
+		275,457.358 367.093,366.18 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="182.906,275 182.906,183.821 
+		90.812,275 182.906,366.18 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="275,183.821 367.094,183.821 
+		367.094,275 367.094,366.18 275,366.18 182.906,366.18 182.906,275 182.906,183.821 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="459.717,550 459.717,476.997 
+		479.8,458.133 550,458.133 550,550 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="90.284,550 90.284,476.997 
+		70.201,458.133 0,458.133 0,550 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="459.717,0 459.717,73.002 
+		479.8,91.867 550,91.867 550,0 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="459.717,73.002 459.717,0 368.404,0 
+		368.404,92.196 460.299,184.089 550,184.089 550,91.867 479.8,91.867 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="368.404,92.196 368.404,0 275,0 
+		275,92.642 459.188,274.999 550,274.999 550,184.088 460.299,184.088 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="181.596,92.196 181.596,0 275,0 
+		275,92.642 90.812,274.999 0,274.999 0,184.088 89.702,184.088 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="181.596,457.805 181.596,550 275,550 
+		275,457.359 90.812,275.002 0,275.002 0,365.914 89.702,365.914 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="368.404,457.805 368.404,550 275,550 
+		275,457.359 459.188,275.002 550,275.002 550,365.914 460.299,365.914 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="459.717,476.997 459.717,550 
+		368.404,550 368.404,457.804 460.299,365.912 550,365.912 550,458.133 479.8,458.133 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="90.284,73.002 90.284,0 181.596,0 
+		181.596,92.196 89.702,184.089 0,184.089 0,91.867 70.201,91.867 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="90.284,476.997 90.284,550 
+		181.596,550 181.596,457.804 89.702,365.912 0,365.912 0,458.133 70.201,458.133 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="90.284,0 90.284,73.002 
+		70.201,91.867 0,91.867 0,0 	"/>
 </g>
 </svg>

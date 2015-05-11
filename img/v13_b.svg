@@ -8,21 +8,20 @@
 ]>
 <svg version="1.1" id="t1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-	 x="0px" y="0px" width="550px" height="550px" viewBox="25 25 550 550" enable-background="new 25 25 550 550"
-	 xml:space="preserve">
+	 x="0px" y="0px" width="550px" height="550px" viewBox="0 0 550 550" enable-background="new 0 0 550 550" xml:space="preserve">
 <g>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="318.256,575 446.505,446.506 
-		575,318.257 575,156.927 366.439,366.438 156.926,575 	"/>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="318.256,575 575,575 575,318.257 
-		446.505,446.506 	"/>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="371.336,25 491.585,146.918 
-		411.868,229.334 206.501,25 	"/>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="25,371.335 146.918,491.584 
-		229.335,411.869 25,206.502 	"/>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="25,110.278 277.23,362.917 
-		319.63,319.629 362.916,277.23 110.277,25 25,25 	"/>
-	<path fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" d="M25,25L25,25l85.277,0.001L362.916,277.23
-		l-43.286,42.4l-42.4,43.286L25,110.278v96.226L229.335,411.87l-82.417,79.717L25,371.337v203.662h131.926L366.44,366.438
-		L575,156.926V25H25z M411.868,229.334L206.501,25.001h164.834l120.249,121.918L411.868,229.334z"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="293.256,550 421.505,421.506 
+		550,293.257 550,131.927 341.439,341.438 131.926,550 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="293.256,550 550,550 550,293.257 
+		421.505,421.506 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="346.336,0 466.585,121.918 
+		386.868,204.334 181.501,0 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="0,346.335 121.918,466.584 
+		204.335,386.869 0,181.502 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" points="0,85.278 252.23,337.917 
+		294.63,294.629 337.916,252.23 85.277,0 0,0 	"/>
+	<path fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" d="M0,0L0,0l85.277,0.001L337.916,252.23
+		L294.63,294.63l-42.399,43.286L0,85.278v96.226L204.335,386.87l-82.417,79.717L0,346.337v203.662h131.926L341.44,341.438
+		L550,131.926V0H0z M386.868,204.334L181.501,0.001h164.834l120.249,121.918L386.868,204.334z"/>
 </g>
 </svg>
