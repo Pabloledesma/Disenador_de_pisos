@@ -38,6 +38,8 @@
     #botones { margin-left: 30px; }
 
     #detalle { margin-top: 30px; }
+    
+    #cotizacion { display: none; }
 
 </style>
 <div id="disenador" class="container">
@@ -98,6 +100,11 @@
                         <div id="botones">     
                             <button class="btn-primary" id="guardar">Guardar</button>
                             <button class="btn-primary" id="borrar">Borrar</button>
+                            
+                        </div>
+                        <div id="cotizacion">
+                            <button class="btn-primary" id="cotizar">Cotizar</button><br>
+                            Ver cenefa <input type="checkbox" id="cenefa">
                         </div>
                     </td>
                 </tr>

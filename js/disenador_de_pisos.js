@@ -17,7 +17,10 @@ $().ready(function () {
         guardar = $("#guardar"),
         borrar = $("#borrar"),
         botones = $("#botones"),
-        tabResult = $("table.result");
+        tabResult = $("table.result"),
+        div_cotizacion = $("#cotizacion"),
+        btn_cotizar = $("#cotizar"),
+        cenefa = $("#cenefa");
 
         tabResult.slideToggle();
         botones.hide();
@@ -85,7 +88,6 @@ $().ready(function () {
             alert("Debe borrar el resultado anterior.");
             return false;
         }
-         
         
         svg.clone().attr('width', '100px')
                 .attr('height', '100px')
@@ -99,11 +101,11 @@ $().ready(function () {
         $("path").attr('fill', "#FFFFFF");
         $("polygon").attr('fill', "#FFFFFF");
         $("polyline").attr('fill', "#FFFFFF");
-        $("rectangle").attr('fill', "#FFFFFF");
+        $("rect").attr('fill', "#FFFFFF");
         $("circle").attr('fill', "#FFFFFF");
         tabResult.slideToggle("slow");
         result.find("svg").remove();
-
+        
     });
     
      
