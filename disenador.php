@@ -39,7 +39,7 @@
 
     #detalle { margin-top: 30px; }
     
-    #cotizacion { display: none; }
+    #cotizacion { display: none; margin: 30px 0 0 30px; }
 
 </style>
 <div id="disenador" class="container">

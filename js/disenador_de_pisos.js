@@ -94,6 +94,7 @@ $().ready(function () {
                 .attr('class', 'clone')
                 .appendTo("td.celda");
         tabResult.show("slow");
+        div_cotizacion.fadeIn("slow");
          
     });
 
@@ -105,7 +106,7 @@ $().ready(function () {
         $("circle").attr('fill', "#FFFFFF");
         tabResult.slideToggle("slow");
         result.find("svg").remove();
-        
+        div_cotizacion.fadeOut("slow");
     });
     
      
