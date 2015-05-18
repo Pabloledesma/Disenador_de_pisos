@@ -128,5 +128,5 @@
     </div><!-- row -->
    
 </div><!-- disenador container -->      
-
+<!-- Scripts -->
 <script src="<?php echo site_url('wp-content/plugins/Disenador_de_pisos/js/disenador_de_pisos.js'); ?>"></script>
