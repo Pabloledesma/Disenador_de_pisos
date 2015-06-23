@@ -9,12 +9,14 @@
 <svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
 	 x="0px" y="0px" width="568px" height="567px" viewBox="0 0 568 567" enable-background="new 0 0 568 567" xml:space="preserve">
-<rect x="0.929" y="443.033" fill="#FFFFFF" stroke="#58595B" stroke-width="1.5" stroke-miterlimit="10" width="567" height="124"/>
-<polygon fill="#FFFFFF" stroke="#58595B" stroke-width="1.5" stroke-miterlimit="10" points="567.848,71.119 0.646,71.117 
-	0.251,0.25 567.848,0.25 "/>
-<polygon fill="#FFFFFF" stroke="#58595B" stroke-width="1.5" stroke-miterlimit="10" points="567.587,143.136 0.9,143.136 
-	0.9,71.139 567.941,71.139 "/>
-<rect x="0.9" y="371.139" fill="#FFFFFF" stroke="#58595B" stroke-width="1.5" stroke-miterlimit="10" width="566.876" height="71.997"/>
-<polygon fill="#FFFFFF" stroke="#58595B" stroke-width="1.5" stroke-miterlimit="10" points="0.389,371.033 567.848,371.033 
-	567.508,143.327 0.389,143.12 "/>
+	<g>
+		<rect x="0.929" y="443.033" fill="#FFFFFF" stroke="#58595B" stroke-width="1.5" stroke-miterlimit="10" width="567" height="124"/>
+		<polygon fill="#FFFFFF" stroke="#58595B" stroke-width="1.5" stroke-miterlimit="10" points="567.848,71.119 0.646,71.117 
+			0.251,0.25 567.848,0.25 "/>
+		<polygon fill="#FFFFFF" stroke="#58595B" stroke-width="1.5" stroke-miterlimit="10" points="567.587,143.136 0.9,143.136 
+			0.9,71.139 567.941,71.139 "/>
+		<rect x="0.9" y="371.139" fill="#FFFFFF" stroke="#58595B" stroke-width="1.5" stroke-miterlimit="10" width="566.876" height="71.997"/>
+		<polygon fill="#FFFFFF" stroke="#58595B" stroke-width="1.5" stroke-miterlimit="10" points="0.389,371.033 567.848,371.033 
+			567.508,143.327 0.389,143.12 "/>
+	</g>
 </svg>

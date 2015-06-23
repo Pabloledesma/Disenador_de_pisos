@@ -103,8 +103,20 @@
                             
                         </div>
                         <div id="cotizacion">
-                            <button class="btn-primary" id="cotizar">Cotizar</button><br>
-                            Ver cenefa <input type="checkbox" id="cenefa">
+                            <form method="post" action="cotizar.php">
+                            
+                                <input type="hidden" name="data" id="data" />
+
+                                <div class="form-group">
+                                    <label for="cenefa">Ver cenefa</label>
+                                    <input class="form-control" type="checkbox" name="cenefa" id="cenefa">
+                                </div>
+
+                                <div class="form-group">
+                                    <button class="btn btn-primary" id="cotizar">Cotizar</button>
+                                </div>
+
+                            </form>
                         </div>
                     </td>
                 </tr>

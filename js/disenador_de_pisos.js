@@ -108,6 +108,21 @@ $().ready(function () {
         result.find("svg").remove();
         div_cotizacion.fadeOut("slow");
     });
+
+    btn_cotizar.on('click', function(){
+        
+        //Guardar la imagen de la valdosa editada
+        var valdosa_editada = $("table.result").html();
+        console.log(valdosa_editada);
+        //Mostrar el formulario oculto
+/*
+        $.ajax({
+            method: 'post',
+            url: 'cotizar.php',
+            data: form.serialize()
+        });
+  */
+    });
     
      
 });
