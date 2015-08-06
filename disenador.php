@@ -41,6 +41,8 @@
     
     #cotizacion { display: none; margin: 30px 0 0 30px; }
 
+    #formulario_cotizacion { display: none }
+
 </style>
 <div id="disenador" class="container">
     <div class="row">
@@ -102,21 +104,43 @@
                             <button class="btn-primary" id="borrar">Borrar</button>
                             
                         </div>
-                        <div id="cotizacion">
+                        <div id="formulario_cotizacion">
                             <form method="post" action="cotizar.php">
                             
                                 <input type="hidden" name="data" id="data" />
 
                                 <div class="form-group">
-                                    <label for="cenefa">Ver cenefa</label>
-                                    <input class="form-control" type="checkbox" name="cenefa" id="cenefa">
+                                    <label for="cenefa">Nombre</label>
+                                    <input class="form-control" type="text" name="name" id="name">
                                 </div>
 
                                 <div class="form-group">
-                                    <button class="btn btn-primary" id="cotizar">Cotizar</button>
+                                    <label for="cenefa">Correo</label>
+                                    <input class="form-control" type="email" name="email" id="email">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="cenefa">Comentario</label>
+                                    <textarea class="form-control" name="comment" id="comment"></textarea>
+                                </div>
+
+                                <div class="form-group">
+                                    <button class="btn btn-primary" type="submit" id="cotizar">Enviar</button>
                                 </div>
 
                             </form>
+                        </div>
+                        <div id="cotizacion">
+                            
+                            <div class="form-group">
+                                <label for="cenefa">Ver cenefa</label>
+                                <input type="checkbox" name="cenefa" id="cenefa">
+                            </div>
+
+                            <div class="form-group">
+                                <button class="btn btn-primary" id="cotizar">Cotizar</button>
+                            </div>
+
                         </div>
                     </td>
                 </tr>

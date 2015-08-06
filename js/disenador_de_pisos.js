@@ -19,6 +19,7 @@ $().ready(function () {
         botones = $("#botones"),
         tabResult = $("table.result"),
         div_cotizacion = $("#cotizacion"),
+        formulario_cotizacion = $("#formulario_cotizacion"),
         btn_cotizar = $("#cotizar"),
         cenefa = $("#cenefa");
 
@@ -112,16 +113,8 @@ $().ready(function () {
     btn_cotizar.on('click', function(){
         
         //Guardar la imagen de la valdosa editada
-        var valdosa_editada = $("table.result").html();
-        console.log(valdosa_editada);
-        //Mostrar el formulario oculto
-/*
-        $.ajax({
-            method: 'post',
-            url: 'cotizar.php',
-            data: form.serialize()
-        });
-  */
+        alert("presiono");
+       
     });
     
      
